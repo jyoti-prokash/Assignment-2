@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+        /* similar style */
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+/* navigation section */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+.nav-bar h1{
+    font-size: 2.10rem;
+    height: 46px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.nav-bar ul{
+display: flex;
+font-size: 1.2rem;
+list-style: none;
+border: 3px solid rgba(255, 255, 255, 0.1);
+padding: 10px 0px;
+border-radius: 40px;
+width: 465px;
+height: 46px;
+}
+.nav-bar ul li a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+#home{
+    color: white;
+    font-size: 1.2rem;
+    border: 2px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    padding: 8px 20px;
+    width: 92px;
+    height: 38px;
+}
+/* header section */
+.header-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    width: 50%;
+    height: 540px;
+}
+.header-title{
+    font-size: 5rem;
+    color: white;
+}
+.header-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 50px 0px;
+}
+.btn-primary{
+    width: 225px;
+    height: 54px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+    padding: 15px 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.btn-secondry{
+    width: 225px;
+    height: 54px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.header-img img{
+    width: 100%;
+    position: relative;
+}
+.header-img-box1{
+    width: 206px;
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -120px;
+}
+.header-img-box2{
+    width: 206px;
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 220px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.header-img-box1 h1{
+    color: white;
+}
+.header-img-box1 p{
+    color: rgba(239, 237, 232, 0.65);
+}
+.header-img-box2 h1{
+    color: white;
+    font-size: 3rem;
+}
+.header-img-box2 p{
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* change your habit section */
