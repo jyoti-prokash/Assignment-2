@@ -152,3 +152,50 @@ height: 46px;
 }
 
 /* change your habit section */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.habit-section{
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+.habit-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.habit-description{
+    font-size: 0.90rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+.habit-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: space-around; */
+    margin: 0 auto;  
+}
+.habit-content{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 70px;
+}
+.habit-content p{
+    font-size: 0.90rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+.habit-content h2{
+    font-size: 1.40rem;
+    font-weight: 500;
+    margin: 10px;
+}
+.habit-img img{
+    border-radius: 50%;
+    
+}
