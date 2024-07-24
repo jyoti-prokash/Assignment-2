@@ -70,5 +70,13 @@
         font-size: 2.40rem;
     }
     
+    /* habit section */
+    .habit-img{
+        display: grid;
+        grid-template-columns: (1, 1fr);
+    }
+    .run-img img{
+        width: 100%;
+    }
     
 }
