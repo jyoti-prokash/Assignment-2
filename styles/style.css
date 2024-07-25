@@ -265,8 +265,9 @@ table{
     font-size: 1.80rem;
     font-weight: 800;
     margin-bottom: 40px;
+    margin-left: 50px;
 }
-.bmi-section, table,{
+.bmi-section, table{
     color: white;
     font-size: 1.60rem;
     margin: 50px;
