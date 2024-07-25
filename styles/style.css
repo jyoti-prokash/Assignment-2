@@ -301,6 +301,7 @@ thead, th{
     display: flex;
     justify-content: center;
     gap: 10%;
+    margin-bottom: 40px;
 }
 .bmi-calculate{
     width: 40%;
@@ -342,7 +343,8 @@ thead, th{
 }
 /* our team section */
 .team-section{
-    border: 2px red solid;
+    margin-bottom: 80px;
+    border-radius: 10px;
 }
 .team-header{
     text-align: center;
@@ -361,7 +363,62 @@ thead, th{
     padding: 20px;
     position: relative;
 }
-
-
+    /* footer section */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px;
+}
+.footer-section{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 80%;
+}
+.footer-section h1{
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+.footer-section p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0px;
+}
+.footer-description{
+    width: 30%;
+}
+.get-started{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.get-started h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.get-started h5{
+    font-size: 1.40rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.hr-line{
+    color: rgba(255, 255, 255, 0.5);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 40px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    width: 80%;
+    margin: 0 auto;
+}
 
 
