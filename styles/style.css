@@ -27,14 +27,14 @@ body{
     font-style: italic;
 }
 .nav-bar ul{
-display: flex;
-font-size: 1.2rem;
-list-style: none;
-border: 3px solid rgba(255, 255, 255, 0.1);
-padding: 10px 0px;
-border-radius: 40px;
-width: 465px;
-height: 46px;
+    display: flex;
+    font-size: 1.2rem;
+    list-style: none;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0px;
+    border-radius: 40px;
+    width: 465px;
+    height: 46px;
 }
 .nav-bar ul li a {
     color: white;
@@ -362,7 +362,21 @@ thead, th{
     border-radius: 10px;
     gap: 20px;
     padding: 20px;
+}
+.trainer1, .trainer2, .trainer3, .trainer4, .trainer5, .trainer6{
+    font-weight: 600;
+    font-size: 1.20rem;
     position: relative;
+}
+.trainer1-text{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    padding-left: 20px;
+}
+.trainer-p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
 }
     /* footer section */
 footer{
