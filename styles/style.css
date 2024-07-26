@@ -29,33 +29,23 @@ body{
 }
 .nav-bar ul{
     display: flex;
+    justify-content: space-between;
     font-size: 1.2rem;
     list-style: none;
     border: 3px solid rgba(255, 255, 255, 0.1);
-    padding: 10px 0px;
+    padding: 10px 15px;
     border-radius: 40px;
     width: 465px;
     height: 46px;
 }
 .nav-bar ul li a {
     color: white;
-    margin-right: 50px;
     text-decoration: none;
 }
 .nav-menu{
     display: none;
     color: white;
 } 
-#home{
-    color: white;
-    font-size: 1.2rem;
-    border: 2px;
-    background-color: rgb(230, 83, 60);
-    border-radius: 40px;
-    padding: 8px 20px;
-    width: 92px;
-    height: 38px;
-}
 /* header section */
 .header-section{
     width: 80%;
@@ -158,7 +148,6 @@ body{
 .header-img-box2 p{
     color: rgba(239, 237, 232, 0.65);
 }
-
 /* change your habit section */
 main{
     width: 80%;
@@ -423,7 +412,7 @@ footer{
     margin-bottom: 40px;
 }
 .get-started h5{
-    font-size: 1.40rem;
+    font-size: 1.20rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.5);
     margin: 20px 0px;
