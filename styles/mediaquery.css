@@ -41,14 +41,19 @@
     }
     main{
         width: 100%;
-        margin: 650px auto 60px auto;
+        margin-top: 750px;
     }
     .header-title{
         font-size: 2.5rem;
         color: white; 
     }
+    .header-img{
+        width: 100%;
+        margin: 0px auto;
+    }
     .header-img img{
         margin: 0px auto;
+        width: 100%;
         padding-left: 50px;
     }
     .header-img-box1{
@@ -126,8 +131,8 @@
         margin-left: 3px;
     }
     table{
-        width: 400px;
-        margin: 3px;
+        width: 350px;
+        margin: 2px;
     }
     .calculate-header{
         font-size: 1rem;
@@ -161,7 +166,7 @@
     .team-header{
         text-align: center;
         width: 80%;
-        margin: 0px auto;
+        margin: 20px auto;
     }
     .team-img{
         display: grid;
@@ -173,6 +178,9 @@
         flex-direction: column;
         padding-left: 10px;
         margin: 0px auto;
+        width: 100%;
+    }
+    .footer-description{
         width: 100%;
     }
     .get-started{
@@ -200,6 +208,9 @@
         margin: 0 auto;
         padding: 20px;
     }
+    .nav-bar ul{
+        width: 50%;
+    }
     .header-section{
         width: 80%;
         margin: 0px auto;
@@ -226,15 +237,10 @@
     }
     .btn{
         display: flex;
-        justify-content: space-between;
-    }
-    body{
-        width: 100%;
-        margin: 0 auto;
-        background-color: black;
+        justify-content: space-around;
     }
     main{
-        margin: 0 auto;
+        margin: 20px auto;
     }
     .habit-section{
         color: white;
