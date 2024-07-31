@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    #gradient{
+        background: linear-gradient(rgb(23, 22, 22), rgb(37, 36, 36), rgba(43, 36, 36, 0) 100%);
+    }
     .nav-bar{
         flex-direction: column;
     }
@@ -203,6 +206,9 @@
 }
 /* responsive for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
+    #gradient{
+        background: linear-gradient(rgb(23, 22, 22), rgb(37, 36, 36), rgba(43, 36, 36, 0) 100%);
+    }
     .nav-bar{
         width: 100%;
         margin: 0 auto;

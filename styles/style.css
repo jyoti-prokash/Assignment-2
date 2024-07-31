@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+#gradient{
+    background: linear-gradient(rgb(23, 22, 22), rgb(37, 36, 36), rgba(43, 36, 36, 0) 100%);
+}
         /* similar style */
 body{
     width: 100%;
