@@ -34,6 +34,10 @@
         margin: 0px auto;
         padding-left: 30px;
     }
+    .shape{
+        font-family: 'Miama', sans-serif;
+        font-size: 5rem;
+    }
     .header-description{
         color: rgba(255, 255, 255, 0.5);
         width: 80%;
