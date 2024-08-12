@@ -326,6 +326,10 @@ thead, th{
     margin: 5px 0px;
     width: 40%;
 }
+.option-bar{
+    background-color: rgba(45, 163, 163, 0.405);
+    color: black;
+}
 .option-text1{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);

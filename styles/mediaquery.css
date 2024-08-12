@@ -45,6 +45,7 @@
     .btn-primary, .btn-secondry{
         font-size: 1rem;
         width: fit-content;
+        margin-top: 10px;
     }
     main{
         width: 100%;
